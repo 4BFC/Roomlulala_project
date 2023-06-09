@@ -1,8 +1,33 @@
-{\rtf1\ansi\ansicpg949\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+6.8(목)
+회의 시간 :  9:00 ~ 11:30 (2.5H)
+논의 주제(내용) : 자기소개 / git / 페이지 구성
 
-\f0\fs24 \cf0 hello, hello}
+<자기소개>
+디코 음성 채널로 간단한 자기소개 진행
+
+<git>
+깃 활용 방식 가볍게 설명
+Github - (Git) - Window
+git은 Linux 언어로 사용
+Git Bash 활용
+
+<페이지 구성>
+
+☐ 방탈출 정보 제공 웹사이트 - 사이트명 네이밍하기
+☐ 6.11(일)까지 html 뼈대 완성 목표
+☐ 회의 시간 잡기
+
+1. 웹 진입 첫 화면 : 
+웹페이지 메인 컬러와 캐릭터(로고 등)을/를 활용하여 심플한 도입부 구현 (예시 아래 링크 참조)
+추후 세부 디자인 시 해당 사이트명에 맞는 커스터마이징 컬러로 css 작업 (예정)
+
+https://m3.material.io/ (인터페이스 디자인)
+https://www.daangn.com/ (당근마켓)
+
+2. 로그인 > 계정관리 (api naver/kakao 활용)
+
+3. 지도 보기 (api naver 활용)
+
+4. 맴버 모집 방 만들기 (게시판 형태로 구현 - soket.io를 활용한 업그레이드 버전은 완성 후 방장님과 상의하여 진행여부 결정)
+
+5. 방탈출 랭킹, 랭킹 별 방탈출 정보(뎃글,후기,팁 등)공유
