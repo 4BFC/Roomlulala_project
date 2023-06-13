@@ -4,12 +4,19 @@
   --point-color: #9381FF;
   --white-color: #f1faee;
   --blue-color: #CAF0F8;
+
+  --padding: ;
+
+  --radius-small: 50px;
+  --radius-medium: 30px;
+
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 body {}
@@ -37,16 +44,86 @@ header {
   /* padding: ; */
 }
 
-/* 해당 방탈출 지도 및 위치 */
+/* .cafeinfo .backColor_img {
+  background: #D9D9D9;
+  width: 464px;
+  height: 379px;
+} */
+
+/* Img : 해당 방탈출 정보 대표 이미지 */
+.cafeinfo .backColor_img .cafe_img {
+  width: 464px;
+  height: 379px;
+  border-radius: var(--radius-medium);
+}
+
+/* Info : 해당 방탈출 정보 설명 */
+.cafeinfo .backColor_info {
+  background: #D9D9D9;
+  width: 664px;
+  height: 379px;
+  border-radius: var(--radius-medium);
+}
+
+/* Map : 해당 방탈출 지도 및 위치 */
 .map {
   display: flex;
   justify-content: center;
+}
+
+.map .backColor_map .map_img {
+  width: 1160px;
+  height: 379px;
+  border-radius: var(--radius-medium);
 }
 
 /* 댓글입력 */
 .input_comment {
   display: flex;
   justify-content: center;
+}
+
+.input_comment .backColor_input {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  border-radius: var(--radius-medium);
+}
+
+.input_comment .backColor_input .avator {
+  height: 100px;
+  width: 100px;
+  border-radius: var(--radius-small);
+}
+
+.input_comment .backColor_input .input_text {
+  display: flex;
+  flex-direction: column;
+  /* 이부분은 기록할 것 */
+}
+
+.input_comment .backColor_input .input {
+  width: 787px;
+  height: 80px;
+  border-radius: var(--radius-medium);
+}
+
+.input_comment .backColor_input button {
+  width: 145px;
+  height: 100px;
+  border: none;
+  border-radius: var(--radius-medium);
+}
+
+.input_comment .backColor_input {
+  width: 1158px;
+  height: 157px;
+  background: var(--nav-color);
+}
+
+/* 왜 아웃라인이 적용이 안될까 */
+.input_comment .backColor_input .input_text input:focus {
+  outline: none;
 }
 
 /* 댓글 목록 */
