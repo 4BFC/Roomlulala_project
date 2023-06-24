@@ -1,2 +1,8 @@
+/img
+/main/img
 /Roomlulala/img
-.DS_Store
+/Roomlulala/main/img
+/Roomlulala/main/*.png
+/Roomlulala/main/*.jpg
+*.DS_Store
+*.DS_Store/

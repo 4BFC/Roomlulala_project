@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style_comments.css">
   <title>Information</title>
 </head>
 
@@ -30,8 +31,12 @@
     <section class="name">
       <h2>라스트 이스케이브</h2>
       <div class="tag">
-        <span>높은 난이도</span>
-        <span>강남역</span>
+        <div class="tag_level">
+          <span>높은 난이도</span>
+        </div>
+        <div class="tag_local">
+          <span>강남역</span>
+        </div>
       </div>
     </section>
 
@@ -68,47 +73,90 @@
     <!-- 댓글입력 -->
     <section class="input_comment">
       <div class="backColor_input">
+        <!-- <div class="comment_Group"> -->
         <img class="avator" src="./img/avator.png" alt="">
         <span class="input_text">
-          <span class="date">날짜 : </span>
+          <!-- <span class="date">날짜 : </span> -->
           <input class="input" type="text" placeholder="후기를 입력해주세요!" style="outline: none;">
         </span>
         <button>등록</button>
+        <!-- </div> -->
       </div>
 
     </section>
 
     <!-- 댓글 목록 -->
     <section class="comments">
-      <div>
+      <div class="list backColor_list">
         <ul>
           <li>
-            <img src="./img/user.png" style="height: 100px; width: 100px;" alt="">
-            <span>guess9</span>
-            <span>2023/07/12</span>
-            <span>평일 낮 방문인데도 대기손님이 좀 계셔서 놀랬어요. 친절하게 잘 안내해주셔서 처음부터 끝까지 잘 안내 해주셔서 몰입을 더 잘할 수 있었어요.</span>
+            <div class="list_element backColor_element">
+              <img class="user_img" src="./img/user.png" alt="">
+              <div class="comment">
+                <span>guess9</span>
+                <span>2023/07/12</span>
+                <span>
+                  평일 낮 방문인데도 대기손님이 좀 계셔서 놀랬어요. 친절하게 잘 안내해주셔서 처음부터 끝까지 잘 안내 해주셔서 몰입을 더 잘할 수 있었어요.
+                </span>
+              </div>
+            </div>
           </li>
           <li>
-            <img src="./img/user.png" style="height: 100px; width: 100px;" alt="">
-            <span>자전거슉슉</span>
-            <span>2023/07/12</span>
-            <span>두번째 방문입니다! 다른 데 가봤는데 가성비도 그렇 고 여러 면에서 다시 재방문 의사가 있는 곳입니다 전 오늘 알카트라즈 했습니다. </span>
+            <div class="list_element backColor_element">
+              <img class="user_img" src="./img/user.png" alt="">
+              <div class="comment">
+                <span>guess9</span>
+                <span>2023/07/12</span>
+                <span>
+                  평일 낮 방문인데도 대기손님이 좀 계셔서 놀랬어요. 친절하게 잘 안내해주셔서 처음부터 끝까지 잘 안내 해주셔서 몰입을 더 잘할 수 있었어요.
+                </span>
+              </div>
+            </div>
           </li>
           <li>
-            <img src="./img/user.png" style="height: 100px; width: 100px;" alt="">
-            <span>Sgisgi</span>
-            <span>2023/06/21</span>
-            <span>직원이 불친절하다는 리뷰가 많이 보여서 고민했지 만 당장 가능한 곳이 여기 밖에 없어서 예약하고 갔습 니다. </span>
+            <div class="list_element backColor_element">
+              <img class="user_img" src="./img/user.png" alt="">
+              <div class="comment">
+                <span>guess9</span>
+                <span>2023/07/12</span>
+                <span>
+                  평일 낮 방문인데도 대기손님이 좀 계셔서 놀랬어요. 친절하게 잘 안내해주셔서 처음부터 끝까지 잘 안내 해주셔서 몰입을 더 잘할 수 있었어요.
+                </span>
+              </div>
+            </div>
+          </li>
+          <!-- <li>
+            <div class="list_element backColor_element">
+              <img class="user_img" src="./img/user.png" alt="">
+              <div class="comment">
+                <span>guess9</span>
+                <span>2023/07/12</span>
+                <span>
+                  평일 낮 방문인데도 대기손님이 좀 계셔서 놀랬어요. 친절하게 잘 안내해주셔서 처음부터 끝까지 잘 안내 해주셔서 몰입을 더 잘할 수 있었어요.
+                </span>
+              </div>
+            </div>
+          </li> -->
+          <li class="list_num">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
           </li>
         </ul>
-
       </div>
+
+
     </section>
   </main>
-  <hr>
+  <!-- <hr class="foot_hr"> -->
   <footer>
+    <div class="img_p">
+      <img src="./img/logo.png" />
+    </div>
     <small>방탈출 정보 제공 사이트 - Room Lu LaLa</small>
   </footer>
+
 </body>
 
 </html>
