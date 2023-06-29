@@ -37,20 +37,37 @@ ul {
   justify-content: center;
 }
 
-/* backgroundcolor */
+/* background color */
 .comments .backColor_list {
-  width: 1158px;
+  width: 1258px;
   height: 560px;
   border-radius: var(--radius-medium);
   background: var(--blue-color);
+  /* margin-left: 10px; */
 }
 
 .comments .backColor_list .backColor_element {
   width: 1033px;
+  /*1033px*/
   height: 134px;
   border-radius: var(--radius-medium);
   background: var(--white-color);
-  margin: 40px;
+  margin: 40px 40px 40px 40px;
+  /* margin-left: -10px; */
+}
+
+.comment {
+  margin-right: 10px;
+}
+
+.like {
+  display: flex;
+  justify-content: center;
+  width: 84px;
+  height: 134px;
+  background: #9381FF;
+  /* margin: 10px; */
+  border-radius: var(--radius-medium);
 }
 
 .user_img {
@@ -75,6 +92,8 @@ ul {
 .list_num {
   display: flex;
   justify-content: center;
+
+  margin-top: 25px;
 }
 
 .list_num a {

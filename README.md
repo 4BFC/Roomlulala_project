@@ -5,3 +5,6 @@
 ><img src="./img/list.png" width="450px" height="300px" title="main" alt="main"></img><br/>
 3. list image   
 ><img src="./img/info.JPG" width="450px" height="300px" title="main" alt="main"></img><br/>
+
+https://i-ri.tistory.com/39
+https://choa-ri.tistory.com/74
