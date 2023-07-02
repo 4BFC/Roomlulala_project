@@ -12,6 +12,17 @@
   --radius-small: 30px;
   --radius-medium: 10px;
 
+  --cafe-img-width: ;
+  --cafe-img-height: ;
+
+  --backColor-info-width: ;
+  --backColor-info-height: ;
+
+  --map-img-width: ;
+  --map-img-height: ;
+
+  --backColor-input-width: ;
+  --backColor-input-height: ;
 }
 
 * {
@@ -28,28 +39,31 @@ ul {
 /* header */
 header {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
 /* 가게명 및 태그 */
 .name {
   display: flex;
-  margin-top: 80px;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  justify-content: space-between;
 }
 
 .name h2 {
-  font-size: 40px;
-  margin-left: 400px;
-  margin-bottom: 20px;
+  font-size: 300%;
+  margin-right: 20%;
 }
 
 .name .tag {
   display: flex;
-  margin-left: 630px;
+  margin-top: 1%;
+  margin-right: 10%;
 }
 
 .name .tag span {
-  /* margin-right: 10px; */
   margin-top: 7px;
   color: var(--white-color);
 }
@@ -78,19 +92,14 @@ header {
 .cafeinfo {
   display: flex;
   justify-content: center;
-  /* padding: ; */
 }
-
-/* .cafeinfo .backColor_img {
-  background: #D9D9D9;
-  width: 464px;
-  height: 379px;
-} */
 
 /* Img : 해당 방탈출 정보 대표 이미지 */
 .cafeinfo .backColor_img .cafe_img {
-  width: 464px;
+  width: 564px;
+  /*464px*/
   height: 379px;
+  /*379px*/
   border-radius: var(--radius-medium);
 
   margin: var(--margin-medium);
@@ -98,9 +107,11 @@ header {
 
 /* Info : 해당 방탈출 정보 설명 */
 .cafeinfo .backColor_info {
-  background: #D9D9D9;
+  background: var(--blue-color);
   width: 664px;
+  /*664px*/
   height: 379px;
+  /*379px*/
   border-radius: var(--radius-medium);
   margin: var(--margin-medium);
 }
@@ -112,16 +123,24 @@ header {
 }
 
 .map .backColor_map .map_img {
-  width: 1160px;
+  width: 1260px;
+  /*1160px*/
   height: 579px;
+  /*579px*/
   border-radius: var(--radius-medium);
+
+  margin: 15px;
 }
 
 /* 댓글입력 */
 .input_comment .backColor_input {
-  width: 1158px;
+  width: 1258px;
+  /*1158px*/
   height: 140px;
+  /*140px*/
   background: var(--nav-color);
+
+  margin-bottom: 15px;
 }
 
 .input_comment {
@@ -164,67 +183,26 @@ header {
   border-radius: var(--radius-medium);
 }
 
-.input_comment .backColor_input button {
+.input_comment .backColor_input .user_input {
   width: 145px;
-  height: 100px;
+  height: 80px;
   border: none;
   border-radius: var(--radius-medium);
 
   position: relative;
-  top: 20px;
+  top: 29px;
   margin: 0px;
+}
+
+.input_comment .backColor_input button:hover {
+  background: #9381FF;
+  color: #D9D9D9;
 }
 
 /* 왜 아웃라인이 적용이 안될까 */
 .input_comment .backColor_input .input_text input:focus {
   outline: none;
 }
-
-/* 댓글 목록 -> 다시 수정해보기*/
-/* .comments {
-  display: flex;
-  justify-content: center;
-}
-
-.comments .list {
-  width: 1158px;
-  height: 623px;
-  border-radius: var(--radius-medium);
-  background: var(--blue-color);
-}
-
-.comment ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.comments .list li {
-  width: 1033px;
-  height: 124px;
-  border-radius: var(--radius-medium);
-  background: var(--white-color);
-}
-
-.comments .list li img {
-  width: 70px;
-  height: 69px;
-  border-radius: var(--radius-small);
-}
-
-.comments .list li .comment {
-  display: flex;
-  flex-direction: column;
-}
-
-*/
-/* 
-hr {
-  margin: 50px;
-} */
-/* 
-.foot_hr {
-  margin-top: 50px;
-} */
 
 .img_p {
   display: flex;
