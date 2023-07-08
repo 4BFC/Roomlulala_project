@@ -142,6 +142,11 @@
             width: 500px;
             margin: 10px 5px;
             padding: 10px;
+            align-items: center;
+        }
+
+        .listInner span {
+            padding-right: 20px;
         }
 
         .roomName {
@@ -271,14 +276,16 @@
             let listInner = document.getElementsByClassName("listInner");
 
             for (let i = 0; i < listInner.length; i++) {
-                theme = listInner[i].getElementsByClassName("theme");
-                roomName = listInner[i].getElementsByClassName("roomName");
-                if (theme[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
-                    roomName[0].innerHTML.toLowerCase().indexOf(search) != -1
+                let theme = listInner[i].getElementsByClassName("theme")[0];
+                let roomName = listInner[i].getElementsByClassName("roomName")[0];
+
+                if (
+                    theme.textContent.toLowerCase().indexOf(search) !== -1 ||
+                    roomName.textContent.toLowerCase().indexOf(search) !== -1
                 ) {
-                    listInner[i].style.display = "flex"
+                    listInner[i].style.display = "flex";
                 } else {
-                    listInner[i].style.display = "none"
+                    listInner[i].style.display = "none";
                 }
             }
         }
