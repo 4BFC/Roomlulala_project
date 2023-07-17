@@ -1,0 +1,33 @@
+/* @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css); */
+
+.rate_ {
+  display: inline-block;
+  border: 0;
+  margin-right: 15px;
+}
+
+.rate_>input {
+  display: none;
+}
+
+.rate_>label {
+  float: right;
+  /* color: #ddd */
+}
+
+.rate_>label:before {
+  display: inline-block;
+  font-size: 1rem;
+  padding: .3rem .2rem;
+  margin: 0;
+  cursor: pointer;
+  font-family: FontAwesome;
+  content: "\f005 ";
+}
+
+
+.rate_ .half:before {
+  content: "\f089 ";
+  position: absolute;
+  padding-right: 0;
+}

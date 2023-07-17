@@ -1,0 +1,47 @@
+/* @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css); */
+
+.rate_result {
+  display: inline-block;
+  border: 0;
+  margin-right: 15px;
+}
+
+.rate_result>input {
+  display: none;
+}
+
+.rate_result>label {
+  float: right;
+  color: #ddd
+}
+
+.rate_result>label:before {
+  display: inline-block;
+  font-size: 1rem;
+  padding: .3rem .2rem;
+  margin: 0;
+  cursor: pointer;
+  font-family: FontAwesome;
+  content: "\f005 ";
+}
+
+.rate_result .half:before {
+  content: "\f089 ";
+  position: absolute;
+  padding-right: 0;
+}
+
+/*눌렀을 때 반응*/
+.rate_result input:checked~label,
+.rate_result label:hover,
+.rate_result label:hover~label {
+  color: #f73c32 !important;
+}
+
+/*눌렀을 때 반응*/
+.rate_result input:checked+.rate_result label:hover,
+.rate_result input input:checked~label:hover,
+.rate_result input:checked~.rate_result label:hover~label,
+.rate_result label:hover~input:checked~label {
+  color: #f73c32 !important;
+}
