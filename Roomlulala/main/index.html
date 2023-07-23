@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>룸루랄라</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
@@ -14,7 +17,7 @@
     <header>
         <div class="logo">
             <a href="index.html">
-                <img src="./img/logo.png" alt="logo">
+                <img src="./img/subLogo.png" alt="logo">
             </a>
         </div>
         <nav class="top-menu">
@@ -26,7 +29,7 @@
         </nav>
         <div class="profile">
             <!-- href 수정 -->
-            <a href="../signin/">
+            <a href="./login-page.html">
                 <i class="bi bi-person-circle"></i>
             </a>
         </div>
@@ -34,15 +37,15 @@
     <div class="big-logo">
         <center>
             <a href="index.html">
-                <img src="./img/big-logo.png" alt="big-logo">
+                <img src="./img/mainLogo.png" alt="big-logo">
             </a>
         </center>
     </div>
     <section>
         <div class="search">
             <!--fieldset-->
-            <input type="text" name="" id="">
-            <button>검색</button>
+            <input type="text" name="" id="search"onkeyup="filter()" placeholder="방탈출 카페 이름이나 테마를 검색하세요." />
+            <button class="btn_search">검색</button>
         </div>
     </section>
     <main>
@@ -53,15 +56,15 @@
             <div class="card-container">
                 <div class="card">
                     <!-- <img class="cafe_img" src="http://rock1624.cafe24.com//g5/img/main_img01.jpg" alt=""> -->
-                    <img src="img/01.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>강남 키이스케이프 LOG_IN 1<br>머니머니패키지</p>
                 </div>
                 <div class="card">
-                    <img src="img/02.jpg" alt="">
-                    <p>제로월드 강남점<br>제로</p>
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
+                    <p>제로월드 강남점<br>DONE</p>
                 </div>
                 <div class="card">
-                    <img src="img/03.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>키이스케이프 메모리컴퍼니<br>FILM BY STEVE</p>
                 </div>
             </div>
@@ -72,15 +75,15 @@
             </div>
             <div class="card-container">
                 <div class="card">
-                    <img src="img/04.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>난이도 상<br>판타스트릭<br>태초의 신부 : 이브 프로젝트</p>
                 </div>
                 <div class="card">
-                    <img src="img/05.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>난이도 중<br>키이스케이프 우주라이크점<br>WANNA GO HOME</p>
                 </div>
                 <div class="card">
-                    <img src="img/06.png" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>난이도 하<br>지구별방탈출 홍대라스트시티점<br>섀도우</p>
                 </div>
             </div>
@@ -91,15 +94,15 @@
             </div>
             <div class="card-container">
                 <div class="card">
-                    <img src="img/07.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>홍대 디코더<br>Tempo Robato</p>
                 </div>
                 <div class="card">
-                    <img src="img/08.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>코드케이 홍대점<br>꼬레아 우라</p>
                 </div>
                 <div class="card">
-                    <img src="img/09.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>파노라마 신촌점<br>판도라 : PANDORA</p>
                 </div>
             </div>
@@ -110,15 +113,15 @@
             </div>
             <div class="card-container">
                 <div class="card">
-                    <img src="img/10.png" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>방린이 모집합니다~~<br>3/4</p>
                 </div>
                 <div class="card">
-                    <img src="img/11.png" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>홍대에서 방탈출 하실 분?<br>2/5</p>
                 </div>
                 <div class="card">
-                    <img src="img/12.jpg" alt="">
+                    <img src="https://www.zerogangnam.com/storage/h77RkOOKRX3XTVttuI7KPApcV2sSlFORaTTFlm60.jpg" alt="">
                     <p>20대 방탈출 고수 모집<br>1/3</p>
                 </div>
             </div>
@@ -131,5 +134,4 @@
         <small>방탈출 정보 제공 사이트 - Room Lu LaLa</small>
     </footer>
 </body>
-
 </html>
