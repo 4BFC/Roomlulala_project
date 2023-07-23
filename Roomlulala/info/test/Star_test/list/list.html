@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="list.css">
+    <script src="list.js"></script>
+    <!-- <link rel="stylesheet" href="login-page.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <!-- <img src="logo.png" alt="logo"> -->
+            </a>
+        </div>
+        <nav class="top-menu">
+            <ul class="nav">
+                <li><a href="#">방탈출카페 리스트</a></li>
+                <li><a href="#">방탈출러 모집방</a></li>
+                <li><a href="#">방탈출 꿀팁 모음</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <!-- <a href="login.html"> -->
+            <i class="bi bi-person-circle"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- <section>
+            <div class="search_wrap">
+                --검색기능--
+                <div>
+                    -- 검색창 --
+                    <input type="text" id = "name" autocomplete="off">
+                    -- 검색버튼 --
+                    <input type="button" id = "submit_button" value="검색">
+                </div>
+            
+                    -- 추천창 --
+                <div id="suggestion_box" class = "invisible">
+                    <div id = suggested_items></div>
+                </div>
+            </div>
+            
+        </section> -->
+        <section>
+            <div class="search">
+                <!--fieldset-->
+                <input type="textbox" name="검색바" id="">
+                <button class="btn_search">검색</button>
+            </div>
+        </section>
+
+        <!-- 인기순 필터 -->
+        <section>
+            <div class="btn-container">
+                <button class="btn_filter"><a href="#">전체</a></button>
+                <button class="btn_filter btn_favorate_list"><a href="#">최근 인기순</a></button>
+                <button class="btn_filter"><a href="#">테마</a></button>
+                <button class="btn_filter"><a href="#">난이도</a></button>
+                <button class="btn_filter"><a href="#">가격</a></button>
+                <button class="btn_filter"><a href="#">위치</a></button>
+            </div>
+
+        </section>
+
+        <section class="outer_box_listItem">
+            <!--업체사진+리뷰-->
+            <div class="listItem">
+                <div class="parents_li">
+                    <div class="pic"><img alt="방탈출 사진 - 주소" src="escaperoom_pic1.webp"></div>
+                    <div class="text_container">
+                        <fieldset class="rate">
+                            <input type="radio" id="rating50" name="rating" value="10"><label for="rating10"
+                                title="5점"></label>
+                            <input type="radio" id="rating49" name="rating" value="9"><label class="half" for="rating9"
+                                title="4.5점"></label>
+                            <input type="radio" id="rating48" name="rating" value="8"><label for="rating8"
+                                title="4점"></label>
+                            <input type="radio" id="rating47" name="rating" value="7"><label class="half" for="rating7"
+                                title="3.5점"></label>
+                            <input type="radio" id="rating46" name="rating" value="6"><label for="rating6"
+                                title="3점"></label>
+                            <input type="radio" id="rating45" name="rating" value="5"><label class="half" for="rating5"
+                                title="2.5점"></label>
+                            <input type="radio" id="rating44" name="rating" value="4"><label for="rating4"
+                                title="2점"></label>
+                            <input type="radio" id="rating43" name="rating" value="3"><label class="half" for="rating3"
+                                title="1.5점"></label>
+                            <input type="radio" id="rating42" name="rating" value="2"><label for="rating2"
+                                title="1점"></label>
+                            <input type="radio" id="rating41" name="rating" value="1"><label class="half" for="rating1"
+                                title="0.5점"></label>
+                        </fieldset>
+                        <div class="text">
+                            <a href="#" class="text_url">
+                                돈을 내고 방에 제 발로 걸어 들어가 갇힌 다음 탈출하는 기묘한 게임임.
+                                한판에 16000~20000원 정도이고, 제한시간은 스탠다드 60분. 그런데 45분이나 75분, 90분 등등의 베리에이션도 있긴 함.
+                                이 게임의 묘미는 한번 들어갔던 방은 웬만하면 다시 들어가지 않기 때문에 brand new everyday라는 것.
+                                머리 쓰기 좋아하는 사람들에게 추천함.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parents_li">
+                    <div class="pic"><img alt="방탈출 사진 - 주소" src="escaperoom_pic1.webp"></div>
+                    <div class="text_container">
+                        <fieldset class="rate">
+                            <input type="radio" id="rating40" name="rating" value="10"><label for="rating10"
+                                title="5점"></label>
+                            <input type="radio" id="rating39" name="rating" value="9"><label class="half" for="rating9"
+                                title="4.5점"></label>
+                            <input type="radio" id="rating38" name="rating" value="8"><label for="rating8"
+                                title="4점"></label>
+                            <input type="radio" id="rating37" name="rating" value="7"><label class="half" for="rating7"
+                                title="3.5점"></label>
+                            <input type="radio" id="rating36" name="rating" value="6"><label for="rating6"
+                                title="3점"></label>
+                            <input type="radio" id="rating35" name="rating" value="5"><label class="half" for="rating5"
+                                title="2.5점"></label>
+                            <input type="radio" id="rating34" name="rating" value="4"><label for="rating4"
+                                title="2점"></label>
+                            <input type="radio" id="rating33" name="rating" value="3"><label class="half" for="rating3"
+                                title="1.5점"></label>
+                            <input type="radio" id="rating32" name="rating" value="2"><label for="rating2"
+                                title="1점"></label>
+                            <input type="radio" id="rating31" name="rating" value="1"><label class="half" for="rating1"
+                                title="0.5점"></label>
+                        </fieldset>
+                        <div class="text">
+                            <a href="#" class="text_url">
+                                사라진 그녀에 버금갈 정도로 엄청난 스케일을 자랑한다.우선 ‘오픈 룸’인지라 실제로 모르는 사람들과 한 방에 들어가게 되므로 그 사이에서 정신을 놓지 않도록
+                                주의해야 한다.
+                                무엇보다도 협동이 중요하다. 정말이지 대단한 방이었다. 무조건 가야한다. 홍콩 형들 잘 지내..?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parents_li">
+                    <div class="pic"><img alt="방탈출 사진 - 주소" src="escaperoom_pic1.webp"></div>
+                    <div class="text_container">
+                        <fieldset class="rate">
+                            <input type="radio" id="rating30" name="rating" value="10"><label for="rating10"
+                                title="5점"></label>
+                            <input type="radio" id="rating29" name="rating" value="9"><label class="half" for="rating9"
+                                title="4.5점"></label>
+                            <input type="radio" id="rating28" name="rating" value="8"><label for="rating8"
+                                title="4점"></label>
+                            <input type="radio" id="rating27" name="rating" value="7"><label class="half" for="rating7"
+                                title="3.5점"></label>
+                            <input type="radio" id="rating26" name="rating" value="6"><label for="rating6"
+                                title="3점"></label>
+                            <input type="radio" id="rating25" name="rating" value="5"><label class="half" for="rating5"
+                                title="2.5점"></label>
+                            <input type="radio" id="rating24" name="rating" value="4"><label for="rating4"
+                                title="2점"></label>
+                            <input type="radio" id="rating23" name="rating" value="3"><label class="half" for="rating3"
+                                title="1.5점"></label>
+                            <input type="radio" id="rating22" name="rating" value="2"><label for="rating2"
+                                title="1점"></label>
+                            <input type="radio" id="rating21" name="rating" value="1"><label class="half" for="rating1"
+                                title="0.5점"></label>
+                        </fieldset>
+                        <div class="text">
+                            <a href="#" class="text_url">
+                                방탈출의 클리셰와도 같은 두 가지 테마가 있는데, 살인마와 탈옥이다.
+                                이 방은 널리고 널린 탈옥 테마 중에서도 단연 돋보인다. 탈옥을 해본 적은 없지만 탈옥을 한다면 정말로 이런 느낌일 것 같다.
+                                난이도는 꽤나 어려운 편. 정말로 즐겁게 플레이했다. 여기도 무조건 가야한다.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parents_li">
+                    <div class="pic"><img alt="방탈출 사진 - 주소" src="escaperoom_pic1.webp"></div>
+                    <div class="text_container">
+                        <fieldset class="rate">
+                            <input type="radio" id="rating20" name="rating" value="10"><label for="rating10"
+                                title="5점"></label>
+                            <input type="radio" id="rating19" name="rating" value="9"><label class="half" for="rating9"
+                                title="4.5점"></label>
+                            <input type="radio" id="rating18" name="rating" value="8"><label for="rating8"
+                                title="4점"></label>
+                            <input type="radio" id="rating17" name="rating" value="7"><label class="half" for="rating7"
+                                title="3.5점"></label>
+                            <input type="radio" id="rating16" name="rating" value="6"><label for="rating6"
+                                title="3점"></label>
+                            <input type="radio" id="rating15" name="rating" value="5"><label class="half" for="rating5"
+                                title="2.5점"></label>
+                            <input type="radio" id="rating14" name="rating" value="4"><label for="rating4"
+                                title="2점"></label>
+                            <input type="radio" id="rating13" name="rating" value="3"><label class="half" for="rating3"
+                                title="1.5점"></label>
+                            <input type="radio" id="rating12" name="rating" value="2"><label for="rating2"
+                                title="1점"></label>
+                            <input type="radio" id="rating11" name="rating" value="1"><label class="half" for="rating1"
+                                title="0.5점"></label>
+                        </fieldset>
+                        <div class="text">
+                            <a href="#" class="text_url">
+                                정말 재밌다. 정말 신선하다. 상상하지도 못한 스타일의 방이었다. 무조건 가야한다.
+                                딱 한 가지 아쉬운 점이 있다면 상식을 요구한다는 것인데, 뭐 사실 막히면 힌트나 때려맞추기로 해결할 수 있다.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parents_li">
+                    <div class="pic"><img alt="방탈출 사진 - 주소" src="escaperoom_pic1.webp"></div>
+                    <div class="text_container">
+                        <fieldset class="rate">
+                            <input type="radio" id="rating10" name="rating" value="10"><label for="rating10"
+                                title="5점"></label>
+                            <input type="radio" id="rating9" name="rating" value="9"><label class="half" for="rating9"
+                                title="4.5점"></label>
+                            <input type="radio" id="rating8" name="rating" value="8"><label for="rating8"
+                                title="4점"></label>
+                            <input type="radio" id="rating7" name="rating" value="7"><label class="half" for="rating7"
+                                title="3.5점"></label>
+                            <input type="radio" id="rating6" name="rating" value="6"><label for="rating6"
+                                title="3점"></label>
+                            <input type="radio" id="rating5" name="rating" value="5"><label class="half" for="rating5"
+                                title="2.5점"></label>
+                            <input type="radio" id="rating4" name="rating" value="4"><label for="rating4"
+                                title="2점"></label>
+                            <input type="radio" id="rating3" name="rating" value="3"><label class="half" for="rating3"
+                                title="1.5점"></label>
+                            <input type="radio" id="rating2" name="rating" value="2"><label for="rating2"
+                                title="1점"></label>
+                            <input type="radio" id="rating1" name="rating" value="1"><label class="half" for="rating1"
+                                title="0.5점"></label>
+                        </fieldset>
+                        <div class="text">
+                            <a href="#" class="text_url">
+                                놀랍게도 친구의 아버지와 함께 가게 되었다. 80년대를 묘사하는 소품들로 장식되어 있어 나에게는 응팔과 정팔이ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ를,
+                                아버지께는 당시의 향수를 불러일으켰다. 전체적으로 평이한 문제들이 많고, 그 와중에도 신선함을 놓치지 않는다.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--하단정보-->
+    <footer>
+        <small>방탈출 정보 제공 사이트 - Room Lu LaLa</small>
+    </footer>
+</body>
+
+</html>
