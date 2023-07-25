@@ -10,6 +10,7 @@ loginButton.addEventListener("click", (event) => {
     if (username === "user" && password === "1234") {
         alert("You have successfully logged in.");
         location.reload();
+        window.location.href = "index.html";
     } else {
         loginErrorMsg.style.opacity = 1;
         loginForm.reset(); // 입력된 내용 초기화
