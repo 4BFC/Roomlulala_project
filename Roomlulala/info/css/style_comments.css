@@ -38,20 +38,19 @@ ul {
 }
 
 /* background color */
-.comments .backColor_list {
+/* .comments .backColor_list {
   width: 1258px;
   height: 560px;
   border-radius: var(--radius-medium);
   background: var(--blue-color);
-  /* margin-left: 10px; */
-}
+} */
 
 .comments .backColor_list .backColor_element {
   width: 1033px;
   /*1033px*/
   height: 134px;
   border-radius: var(--radius-medium);
-  background: var(--white-color);
+  background: var(--nav-color);
   margin: 40px 40px 40px 40px;
   /* margin-left: -10px; */
 }
