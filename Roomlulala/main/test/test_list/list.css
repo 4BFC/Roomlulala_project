@@ -1,0 +1,180 @@
+@import url("../../css/common.css");
+
+/* 검색바 */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 50px auto 30px auto;
+}
+
+.search input {
+  flex: 1;
+  border: var(--gray-color);
+  border-radius: 8px;
+  padding: 14px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--gray-color);
+}
+
+.search input:hover {
+  background-color: rgb(187, 187, 187);
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search .btn_search{
+  padding: 0 20px;
+  margin: 0 0 0 15px;
+  border: var(--nav-color);
+  border-radius: 8px;
+  height: 49px;
+  color: white;
+  font-size: 25px;
+  background-color: var(--nav-color);
+  text-shadow: 2px 2px 3px rgba(80, 80, 80, 0.3);
+  text-align: center;
+  cursor: pointer;
+}
+
+.search .btn_search:hover{
+  background-color: rgb(54, 181, 212);
+}
+
+/* 인기순 필터 */
+.btn-container{
+  display: flex;
+  justify-content: center;
+  border: 0 none;
+}
+
+button, .btn-filter, .btn_favorate_list{
+  margin: 10px 20px 0;
+  padding: 0 20px;
+  width: 100px;
+  height: 40px;
+  color:white;
+  font-size: 100%;
+  background-color: var(--point-color);
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+button, .btn-filter{
+  border: 1px solid;
+  color: white;
+}
+
+.btn_favorate_list{
+  border: 1px solid;
+  border-color: #52d7ee;
+  width: 300px;
+  height: auto;
+  background-color: var(--nav-color);
+}
+
+button:hover, .btn-filter{
+  opacity: 0.7;
+  background: #735bfa;
+}
+
+.btn_favorate_list:hover{
+  opacity: 0.7;
+  background: var(--nav-color);
+}
+
+button, .btn-filter .btn_favorate_list:hover{
+  color: white;
+  text-shadow: 2px 2px 2px rgba(134, 134, 134, 0.5);
+}
+
+
+/* 방탈출 소개 리스트 */
+.outer_box_listItem{
+  margin: 30px 100px 50px 100px;
+  padding: 30px 100px 30px 100px;
+  background-color: var(--gray-color);
+}
+
+.pic img{
+  width: 400px;
+  height: 260px;
+  border-radius: 2.5rem;
+}
+
+/* 별점 ⭐️⭐️⭐️⭐️⭐️ */
+@import 
+url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.rate {
+  display: inline-block;
+  border: 0;
+  margin-right: 15px;}
+
+.rate > input {
+  display: none;}
+
+.rate > label {
+  float: right;color: #ddd}
+
+.rate > label:before {
+  display: inline-block;
+  font-size: 2rem;
+  padding: .3rem .2rem;
+  margin: 0;
+  cursor: pointer;
+  font-family: FontAwesome;
+  content: "\f005 ";}
+
+.rate .half:before {
+  content: "\f089 ";
+  position: absolute;
+  padding-right: 0;}
+
+.rate input:checked ~ label, 
+.rate label:hover,.rate label:hover ~ label { color: var(--nav-color) !important;  } 
+.rate input:checked + .rate label:hover,
+.rate input input:checked ~ label:hover,
+.rate input:checked ~ .rate label:hover ~ label,  
+.rate label:hover ~ input:checked ~ label { color: var(--nav-color) !important;  } 
+
+/* 방탈출 소개 리스트 */
+.parents_li{
+  display: flex;
+  justify-content: center;
+  vertical-align: top;
+  padding: 15px 0 15px 0;
+}
+
+.text_container{
+  margin-left: 30px ;
+  padding: 30px;
+  border-radius: 2.5rem;
+  background-color: var(--white-color);
+  /* margin: ; */
+}
+
+fieldset, .rate {
+  margin: 5px 0;
+  padding:  0 0 20px 0;
+}
+
+.text{
+  /* display: flex; */
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+section{
+  margin: 0 65px;
+  padding: 0 30px;
+}

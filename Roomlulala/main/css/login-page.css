@@ -5,10 +5,10 @@
   font-family: 'Poor Story', cursive;
     width: 400px;
     margin: 110px auto;
-    padding: 30px;
-    background-color: #f2f2f2;
+    padding: 42px;
+    background-color: #fffad2;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 400px;
   }
   
   .login-container h1 {
@@ -25,7 +25,7 @@
   }
   
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
   }
   
   
@@ -52,7 +52,7 @@
     background-color: var(--nav-color);
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 16px;
     cursor: pointer;
   }
   
@@ -63,7 +63,6 @@
 
   .login-container .actions{
     display: flex;
-    border-top: 1px solid #c4ebf2;
   }
 
   .login-container .actions a{
@@ -130,10 +129,9 @@
     text-align: center;
     margin: 10px;
     padding: 5px;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 18px;
     color: #8a0000;
-    border: 1px solid #8a0000;
-    background-color: #e58f8f;
+    border: 1px solid #b96b6b;
+    background-color: #ffa9a9;
     opacity: 0;
   }

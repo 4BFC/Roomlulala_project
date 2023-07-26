@@ -1,0 +1,236 @@
+@import url("../../css/common.css");
+
+/* 공통 스타일 */
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+ul{
+  list-style: none;
+}
+
+.tag_level,
+.tag_local {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: var(--point-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* 섹션: .name */
+.name {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* 해당 방탈출 정보 */
+.cafeinfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Img : 해당 방탈출 정보 대표 이미지 */
+.cafeinfo .backColor_img .cafe_img {
+  width: 500px;
+  /*464px*/
+  height: 379px;
+  /*379px*/
+  border-radius: 30px 0px 0px 30px;
+}
+
+/* Info : 해당 방탈출 정보 설명 */
+.cafeinfo .backColor_info {
+  background: var(--point-color);
+  width: 500px;
+  /*664px*/
+  height: 379px;
+  /*379px*/
+  border-radius: 0px 30px 30px 0px;
+  margin: var(--margin-medium);
+}
+
+.cafeinfo .backColor_info .info{
+  padding: 30px;
+}
+
+/* Map : 해당 방탈출 지도 및 위치 */
+
+  /* 섹션: .map */
+  .backColor_map {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .map_ing {
+    width: 1000px;
+    height: 500px;
+  }
+
+/* 댓글입력 */
+.input_comment .backColor_input {
+  width: 1258px;
+  /*1158px*/
+  height: 140px;
+  /*140px*/
+  background: var(--nav-color);
+
+  margin-bottom: 15px;
+}
+
+.input_comment {
+  display: flex;
+  justify-content: center;
+  margin: var(--margin-medium);
+  
+}
+
+.input_comment .backColor_input {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  border-radius: var(--radius-medium);
+  border-radius: 30px;
+}
+
+
+.input_comment .backColor_input .avator {
+  height: 100px;
+  width: 100px;
+  border-radius: var(--radius-small);
+
+  position: relative;
+  top: 20px;
+  margin-right: 10px;
+}
+
+.input_comment .backColor_input .input_text {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: 15px;
+  margin: 15px;
+}
+
+.input_comment .backColor_input .input {
+  width: 787px;
+  height: 80px;
+  border-radius: var(--radius-medium);
+}
+
+.input_comment .backColor_input .user_input {
+  width: 145px;
+  height: 80px;
+  border: none;
+  border-radius: var(--radius-medium);
+
+  position: relative;
+  top: 29px;
+  margin: 0px;
+}
+
+.input_comment .backColor_input button:hover {
+  background: #9381FF;
+  color: #D9D9D9;
+}
+
+/* 왜 아웃라인이 적용이 안될까 */
+.input_comment .backColor_input .input_text input:focus {
+  outline: none;
+}
+
+/* basic css */
+
+.comments {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.comments .list {
+  display: flex;
+  justify-content: center;
+}
+
+/* background color */
+/* .comments .backColor_list {
+  width: 1258px;
+  height: 560px;
+  border-radius: var(--radius-medium);
+  background: var(--blue-color);
+} */
+
+.comments .backColor_list .backColor_element {
+  width: 1033px;
+  /*1033px*/
+  height: 134px;
+  border-radius: var(--radius-medium);
+  background: var(--nav-color);
+  margin: 40px 40px 40px 40px;
+  /* margin-left: -10px; */
+  border-radius: 30px;
+}
+
+.comment {
+  margin-right: 10px;
+}
+
+.like {
+  display: flex;
+  justify-content: center;
+  width: 84px;
+  height: 134px;
+  background: #9381FF;
+  /* margin: 10px; */
+  border-radius: var(--radius-medium);
+}
+
+.user_img {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius-small);
+  margin: 15px 30px 15px 20px;
+}
+
+.comments .list .list_element {
+  display: flex;
+  justify-content: column;
+}
+
+.comments .list .list_element .comment span {
+  display: flex;
+  justify-content: column;
+
+  margin-top: 7px;
+}
+
+.list_num {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 25px;
+}
+
+.list_num a {
+  display: flex;
+  margin: 10px 7px 0px 0px;
+}
+
+.img_p {
+  display: flex;
+  justify-content: column;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: var(--nav-color);
+  padding: 50px;
+  margin-top: 150px;
+  color: #fff;
+}
