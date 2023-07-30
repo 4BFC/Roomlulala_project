@@ -10,25 +10,15 @@ https://i-ri.tistory.com/39
 https://choa-ri.tistory.com/74 -->
 
 * 구현한 기능
-CRUD
-
-[LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/info/js/app.js>
+CRUD [LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/info/js/app.js>
     
-Google map 임베드 코드
-
-[LINK]: <https://codingdaisy.tistory.com/50>
+Google map 임베드 코드 [LINK]: <https://codingdaisy.tistory.com/50>
      
-검색 기능 
+검색 기능 [LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/main/test/test_search/search.js>
     
-[LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/main/test/test_search/search.js>
+별점 기능 [LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/info/test/Star_test/app.js>
     
-별점 기능 
-    
-[LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/info/test/Star_test/app.js>
-    
-로그인 기능 
-    
-[LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/info/test/Star_test/app.js>
+로그인 기능 [LINK]: <https://github.com/4BFC/Roomlulala_project/blob/master/Roomlulala/info/test/Star_test/app.js>
     
     
     
